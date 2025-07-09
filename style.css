@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #000; /* Black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #222222; /* Slight contrast to pure black */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+.timer {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: white; /* White timer text */
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+
+.buttons button:hover {
+  opacity: 0.85;
+}
+
+.buttons button:nth-child(1) {
+  background-color: #28a745; /* Green Start */
+}
+
+.buttons button:nth-child(2) {
+  background-color: #dc3545; /* Red Stop */
+}
+
+.buttons button:nth-child(3) {
+  background-color: #007bff; /* Blue Reset */
+}
